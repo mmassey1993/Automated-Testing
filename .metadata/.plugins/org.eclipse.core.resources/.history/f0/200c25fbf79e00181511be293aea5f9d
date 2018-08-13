@@ -1,0 +1,29 @@
+package testApp;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Test {
+	
+	
+	@Before
+	public void setup() {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Documents\\chromedriver_win32/chromedriver.exe");
+		ChromeDriver driver = new ChromeDriver();
+	}
+
+	@org.junit.Test;
+	public void test() {
+		driver.get("http:\\thedemosite.co.uk/");
+	}
+	
+	@After
+	public void teardown() {
+		driver.quit();
+	}
+
+}
