@@ -1,0 +1,14 @@
+package shoppingWebsiteApp;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ShoppingWebsite {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}
